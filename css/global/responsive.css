@@ -1,0 +1,68 @@
+@media (max-width: 880px) {
+  .myself {
+    text-align: center;
+  }
+}
+
+@media (max-width: 700px) {
+  .myself {
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .myself {
+    text-align: center;
+  }
+}
+
+@media (max-width: 400px) {
+  .myself {
+    text-align: center;
+  }
+}
+
+nav .fa-solid {
+  display: none;
+}
+
+@media (max-width: 880px) {
+}
+nav {
+  padding: 0 5% !important;
+}
+
+@media only screen and (max-width: 660px) {
+  nav .fa-solid {
+    font-size: 25px;
+    color: #14bee6;
+    display: block;
+  }
+
+  nav ul {
+    position: fixed;
+    width: 200px;
+    height: 50vh;
+    top: 0;
+    right: -200px;
+    margin: 0;
+    box-shadow: 0 4px 4px rgb(0 0 0 / 30%);
+    background-color: #121212;
+    padding: 52px 0 10px;
+    z-index: 50;
+    font-family: "Inter", sans-serif;
+    transition: 0.5s;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  nav ul li {
+    display: block;
+    margin: 15px;
+  }
+  nav ul .fa-solid {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    cursor: pointer;
+  }
+}

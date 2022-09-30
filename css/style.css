@@ -1,0 +1,10 @@
+@import "./global/global.css";
+@import "./global/header.css";
+@import "./global/responsive.css";
+
+/* Home */
+@import "./home/sobre.css";
+@import "./home/portfolio.css";
+
+/* Footer */
+@import "./footer/footer.css";

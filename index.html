@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <title>Portfólio</title>
+  </head>
+
+  <body>
+    <!-----Header----->
+    <div id="header">
+      <header class="header-bg">
+        <div class="menu" id="">
+          <div class="menu-logo"><a href="#">{e.monteiro}</a></div>
+          <nav class="menu-nav">
+            <ul id="menumob">
+              <li><a href="#header">home</a></li>
+              <li><a href="#sobre">sobre</a></li>
+              <li><a href="#portfolio">projetos</a></li>
+              <li><a href="#contato">contato</a></li>
+              <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+          </nav>
+        </div>
+      </header>
+    </div>
+
+    <!----->
+    <section class="myself-container">
+      <div class="myself">
+        <h1><span class="myself-span">Front-End Developer</span></h1>
+        <h2 class="type-effect">Eliezer Monteiro</h2>
+        <div class="barra"></div>
+        <div class="main_botao">
+          <a
+            href="https://www.linkedin.com/in/eliezer-monteiro/"
+            target="_blank"
+          >
+            <div class="main_botao-linkedin">
+              <img src="./img/Linkedin.png" alt="" />
+              <p>LinkedIn</p>
+            </div>
+          </a>
+          <a href="https://github.com/lelin97" target="_blank">
+            <div class="main_botao-github">
+              <img src="./img/Github.png" alt="" />
+              <p>Github</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-----Sobre----->
+    <div class="container">
+      <div class="sobre" id="sobre">
+        <div class="sobre-info">
+          <div class="sobre-col-1">
+            <img class="foto-eu" src="img/eu.jpg" alt="Sobre 1" />
+          </div>
+          <div class="sobre-col-2">
+            <h1 class="sub-titulo1">Sobre</h1>
+            <h2 class="sub-titulo2">Recife, Pernambuco</h2>
+            <p class="texto-p-1">
+              Olá, me chamo Eliezer Monteiro. Estou focado nos estudos para
+              futuramente ser um desenvolvedor fullstack. Estou cursando Análise
+              e Desenvolvimento de Sistemas na UNIFBV e continuo meus estudos
+              com cursos onlines e pondo em prática o que aprendo.
+            </p>
+            <div class="tab-titulos">
+              <p class="tab-links active-link" onclick="opentab('Educação')">
+                Educação
+              </p>
+              <p class="tab-links" onclick="opentab('Carreira')">Carreira</p>
+              <p class="tab-links" onclick="opentab('Hobby')">Hobby</p>
+              <p class="tab-links" onclick="opentab('Skills')">Skills</p>
+            </div>
+            <div class="tab-contents active-tab" id="Educação">
+              <ul>
+                <li>
+                  <span>Formação</span><br />Análise e Desenvolvimento de
+                  Sistemas (Jan 2020-Atual)
+                </li>
+                <li>
+                  <span>Curso - Origamid</span><br />JavaScript Completo ES6+
+                </li>
+                <li><span>Curso - Origamid</span><br />Web Design Completo</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="Carreira">
+              <ul>
+                <li>
+                  <span>Carreira</span><br />Atualmente foco meus estudos para a
+                  área de Desenvolvimento Front-End, mas almejo me tornar um
+                  Desenvolvedor FullStack.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="Hobby">
+              <ul>
+                <li>
+                  <span>Hobby</span><br />Meu hobby favorito são os jogos
+                  onlines como Valorant, mas também sou apaixonado por futebol,
+                  sempre que posso jogo bola com os amigos.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="Skills">
+              <ul>
+                <li>
+                  <span>Skills</span><br />Possuo conhecimento inicial em
+                  <b>HTML</b>, <b>CSS</b>, <b>JavaScript</b> e <b>Git</b>. Estou
+                  aprimorando meus conhecimentos em <b>JavaScript</b> para
+                  iniciar os estudos em <b>ReactJs</b>.
+                </li>
+                <li>
+                  <span>Soft-Skills</span><br />Possuo conhecimento inicial em
+                  HTML, CSS e JavaScript. Estou aprimorando meus conhecimentos
+                  em JavaScript para iniciar os estudos em React.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-----Portfólio----->
+    <div class="portfolio-bg">
+      <div id="portfolio" class="portfolio">
+        <div class="portfolio-container">
+          <h1>Projetos</h1>
+          <div class="lista-projetos">
+            <div class="projetos">
+              <img src="./img/hora.jpg" />
+              <div class="projetos-info">
+                <h3>Work Hours</h3>
+                <p>
+                  Meu primeiro projeto. Empresa fictícia que informa quantas
+                  horas o usuário trabalhou.
+                </p>
+                <span>Tecnologias utilizadas: HTML, CSS, JavaScript.</span>
+                <a class="projetos-link" href="#"
+                  ><i class="fa fa-link" aria-hidden="true"></i
+                ></a>
+              </div>
+            </div>
+            <div class="projetos">
+              <img src="./img/em-breve-glitch.gif" />
+            </div>
+            <div class="projetos">
+              <img src="./img/em-breve-glitch.gif" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-----Footer----->
+
+    <section class="footer-bg">
+      <footer class="footer" id="contato">
+        <a class="footer-redes" href="#" target="_blank"
+          ><i class="fa fa-whatsapp" aria-hidden="true"></i
+        ></a>
+        <a
+          class="footer-redes"
+          href="https://www.linkedin.com/in/eliezer-monteiro/"
+          target="_blank"
+          ><i class="fa fa-linkedin" aria-hidden="true"></i
+        ></a>
+      </footer>
+    </section>
+  </body>
+
+  <script src="./script.js"></script>
+  <script
+    src="https://kit.fontawesome.com/f7ce6d8921.js"
+    crossorigin="anonymous"
+  ></script>
+</html>

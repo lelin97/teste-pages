@@ -1,0 +1,53 @@
+/* Footer */
+
+.footer-bg {
+  background: #121212;
+}
+
+.footer {
+  border-top: 1px solid #d2d2d2;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 60px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-redes {
+  font-size: 2rem;
+  color: #14bee6;
+  margin: 0 20px;
+}
+
+.footer-redes:hover {
+  color: #2c4bff;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-top: 12px;
+}
+
+.fa-whatsapp:before {
+  content: "\f232";
+}
+
+.fa-linkedin:before {
+  content: "\f0e1";
+}
+
+@media only screen and (max-width: 960px) {
+  .footer {
+    transition: 0.5s;
+    border-top: 2px solid #2c4bff;
+  }
+}
